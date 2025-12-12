@@ -1,0 +1,59 @@
+{
+  "name": "@lambdahk/fetchie",
+  "version": "2.0.4",
+  "description": "Lambda hook: fetchie",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs",
+      "default": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node ./dist/index.js",
+    "test": "vitest",
+    "lint": "eslint . --ext .ts",
+    "postbuild": "node ./dist/index.js"
+  },
+  "keywords": [
+    "Lambda",
+    "hook",
+    "security",
+    "package"
+  ],
+  "author": "Abxe|Femi Abel",
+  "publisher": "https://www.npmjs.com/~abxe.h",
+  "license": "MIT",
+  "dependencies": {
+    "@lambdahk/core": "5.0.0",
+    "@lambdahk/typescript-config": "^1.0.0",
+    "dotenv": "^17.2.3",
+    "@lambdahk/fetchie": "^2.0.4"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.1",
+    "@eslint/json": "^0.14.0",
+    "@types/node": "^24.10.1",
+    "eslint": "^8.57.0",
+    "globals": "^16.5.0",
+    "jiti": "^2.6.1",
+    "typescript": "^5.5.0",
+    "typescript-eslint": "^8.48.1",
+    "vitest": "^1.6.0"
+  },
+  "sponsor": {
+    "url": "https://www.npmjs.com/~abxe.h"
+  },
+  "categories": [
+    "Extension Packs",
+    "Testing",
+    "Debuggers",
+    "Education",
+    "Azure"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+    "extends": "@lambdahk/typescript-config/base.json",
+    "compilerOptions": {
+        "rootDir": "./src",
+        "outDir": "./dist",
+        "typeRoots": [
+            "./node_modules/@types",
+            "./tests"
+        ],
+        "composite": true,
+        "declarationMap": true,
+        "module": "commonjs",
+        "verbatimModuleSyntax": false,
+        "moduleResolution": "node",
+        "incremental": true,
+        "declaration": true,
+        "sourceMap": true,
+        "lib": ["DOM", "ESNext"]
+    },
+    "include": ["src/**/*.ts", "src/**/*.d.ts"],
+}
