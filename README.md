@@ -179,6 +179,11 @@ const response = await fetchie('/payment')
         ▼
 [Client Application]
         │ Uses typed data safely
+        | Contains expected backend header variables -
+        | for original fetch()
+        ▼
+[Backend Application]
+
 ```
 
 ---
