@@ -4,7 +4,7 @@
 **Last Updated**: December 12, 2025  
 **Package**: `@lambdahk/fetchie`  
 **Repository**: https://github.com/Loluwafemi/fetchie  
-**Parent Repository**: https://github.com/Loluwafemi/fetchie  
+**Parent Repository**: https://github.com/Loluwafemi/lambdahook  
 
 Fetchie is the **official TypeScript SDK** for secure, resilient communication with **LambdaHook** – the edge-based API middleware. It provides zero-config authentication, automatic environment injection, and customizable resilience for client-to-server requests.
 
