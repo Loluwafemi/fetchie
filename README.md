@@ -201,7 +201,7 @@ Fetchie is the **only recommended way** to call your backend through LambdaHook.
 | Network failures                | Timeout + exponential retry |
 | Cascading failures              | Circuit breaker pattern |
 
-**Never use raw `fetch()`** — it bypasses LambdaHook security.
+**Only use raw `fetch()` when necessary** — it bypasses LambdaHook security.
 
 ---
 
@@ -214,7 +214,7 @@ Fetchie is the **only recommended way** to call your backend through LambdaHook.
 | v2.0     | Plugin-aware routing (bypass specific plugins) |
 | v2.x     | Framework adapters (Next.js middleware, SvelteKit hooks) |
 
-Contributions welcome: https://github.com/lambdahk/fetchie/issues
+Contributions welcome: https://github.com/Loluwafemi/fetchie
 
 ---
 
